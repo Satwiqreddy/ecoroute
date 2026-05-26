@@ -1,0 +1,144 @@
+
+  'Secunderabad': {
+    center: { latitude: 17.4399, longitude: 78.4983 },
+    depot: { latitude: 17.434900000000003, longitude: 78.4933, name: 'Secunderabad Depot' },
+    bins: [
+      { id: 100, name: 'Bin 1 - Secunderabad Main (Main Road)', latitude: 17.4459, longitude: 78.5023, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 101, name: 'Bin 2 - Secunderabad Market (Main Road)', latitude: 17.4419, longitude: 78.5063, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 102, name: 'Bin 3 - Secunderabad Park (Residential)', latitude: 17.4359, longitude: 78.5033, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null },
+      { id: 103, name: 'Bin 4 - Secunderabad Colony (Residential)', latitude: 17.4449, longitude: 78.4923, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null }
+    ],
+    activeRoute: null,
+    routeMetrics: null,
+    telemetry: null
+  },
+  'JubileeHills': {
+    center: { latitude: 17.4325, longitude: 78.4071 },
+    depot: { latitude: 17.427500000000002, longitude: 78.4021, name: 'JubileeHills Depot' },
+    bins: [
+      { id: 110, name: 'Bin 1 - JubileeHills Main (Main Road)', latitude: 17.4385, longitude: 78.4111, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 111, name: 'Bin 2 - JubileeHills Market (Main Road)', latitude: 17.4345, longitude: 78.4151, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 112, name: 'Bin 3 - JubileeHills Park (Residential)', latitude: 17.4285, longitude: 78.4121, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null },
+      { id: 113, name: 'Bin 4 - JubileeHills Colony (Residential)', latitude: 17.4375, longitude: 78.4011, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null }
+    ],
+    activeRoute: null,
+    routeMetrics: null,
+    telemetry: null
+  },
+  'BanjaraHills': {
+    center: { latitude: 17.4156, longitude: 78.4396 },
+    depot: { latitude: 17.410600000000002, longitude: 78.4346, name: 'BanjaraHills Depot' },
+    bins: [
+      { id: 120, name: 'Bin 1 - BanjaraHills Main (Main Road)', latitude: 17.4216, longitude: 78.4436, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 121, name: 'Bin 2 - BanjaraHills Market (Main Road)', latitude: 17.4176, longitude: 78.4476, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 122, name: 'Bin 3 - BanjaraHills Park (Residential)', latitude: 17.4116, longitude: 78.4446, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null },
+      { id: 123, name: 'Bin 4 - BanjaraHills Colony (Residential)', latitude: 17.4206, longitude: 78.4336, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null }
+    ],
+    activeRoute: null,
+    routeMetrics: null,
+    telemetry: null
+  },
+  'LBNagar': {
+    center: { latitude: 17.3457, longitude: 78.5522 },
+    depot: { latitude: 17.340700000000002, longitude: 78.5472, name: 'LBNagar Depot' },
+    bins: [
+      { id: 130, name: 'Bin 1 - LBNagar Main (Main Road)', latitude: 17.3517, longitude: 78.5562, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 131, name: 'Bin 2 - LBNagar Market (Main Road)', latitude: 17.3477, longitude: 78.5602, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 132, name: 'Bin 3 - LBNagar Park (Residential)', latitude: 17.3417, longitude: 78.5572, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null },
+      { id: 133, name: 'Bin 4 - LBNagar Colony (Residential)', latitude: 17.3507, longitude: 78.5462, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null }
+    ],
+    activeRoute: null,
+    routeMetrics: null,
+    telemetry: null
+  },
+  'Charminar': {
+    center: { latitude: 17.3616, longitude: 78.4747 },
+    depot: { latitude: 17.3566, longitude: 78.4697, name: 'Charminar Depot' },
+    bins: [
+      { id: 140, name: 'Bin 1 - Charminar Main (Main Road)', latitude: 17.3676, longitude: 78.4787, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 141, name: 'Bin 2 - Charminar Market (Main Road)', latitude: 17.363599999999998, longitude: 78.4827, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 142, name: 'Bin 3 - Charminar Park (Residential)', latitude: 17.357599999999998, longitude: 78.4797, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null },
+      { id: 143, name: 'Bin 4 - Charminar Colony (Residential)', latitude: 17.3666, longitude: 78.4687, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null }
+    ],
+    activeRoute: null,
+    routeMetrics: null,
+    telemetry: null
+  },
+  'Khairatabad': {
+    center: { latitude: 17.4116, longitude: 78.4593 },
+    depot: { latitude: 17.4066, longitude: 78.4543, name: 'Khairatabad Depot' },
+    bins: [
+      { id: 150, name: 'Bin 1 - Khairatabad Main (Main Road)', latitude: 17.4176, longitude: 78.4633, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 151, name: 'Bin 2 - Khairatabad Market (Main Road)', latitude: 17.4136, longitude: 78.4673, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 152, name: 'Bin 3 - Khairatabad Park (Residential)', latitude: 17.4076, longitude: 78.4643, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null },
+      { id: 153, name: 'Bin 4 - Khairatabad Colony (Residential)', latitude: 17.4166, longitude: 78.4533, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null }
+    ],
+    activeRoute: null,
+    routeMetrics: null,
+    telemetry: null
+  },
+  'Serilingampally': {
+    center: { latitude: 17.4834, longitude: 78.3188 },
+    depot: { latitude: 17.4784, longitude: 78.3138, name: 'Serilingampally Depot' },
+    bins: [
+      { id: 160, name: 'Bin 1 - Serilingampally Main (Main Road)', latitude: 17.4894, longitude: 78.3228, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 161, name: 'Bin 2 - Serilingampally Market (Main Road)', latitude: 17.4854, longitude: 78.32679999999999, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 162, name: 'Bin 3 - Serilingampally Park (Residential)', latitude: 17.4794, longitude: 78.32379999999999, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null },
+      { id: 163, name: 'Bin 4 - Serilingampally Colony (Residential)', latitude: 17.4884, longitude: 78.3128, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null }
+    ],
+    activeRoute: null,
+    routeMetrics: null,
+    telemetry: null
+  },
+  'Malkajgiri': {
+    center: { latitude: 17.452, longitude: 78.5332 },
+    depot: { latitude: 17.447000000000003, longitude: 78.5282, name: 'Malkajgiri Depot' },
+    bins: [
+      { id: 170, name: 'Bin 1 - Malkajgiri Main (Main Road)', latitude: 17.458000000000002, longitude: 78.5372, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 171, name: 'Bin 2 - Malkajgiri Market (Main Road)', latitude: 17.454, longitude: 78.54119999999999, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 172, name: 'Bin 3 - Malkajgiri Park (Residential)', latitude: 17.448, longitude: 78.53819999999999, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null },
+      { id: 173, name: 'Bin 4 - Malkajgiri Colony (Residential)', latitude: 17.457, longitude: 78.5272, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null }
+    ],
+    activeRoute: null,
+    routeMetrics: null,
+    telemetry: null
+  },
+  'Quthbullapur': {
+    center: { latitude: 17.519, longitude: 78.4552 },
+    depot: { latitude: 17.514, longitude: 78.45020000000001, name: 'Quthbullapur Depot' },
+    bins: [
+      { id: 180, name: 'Bin 1 - Quthbullapur Main (Main Road)', latitude: 17.525, longitude: 78.45920000000001, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 181, name: 'Bin 2 - Quthbullapur Market (Main Road)', latitude: 17.520999999999997, longitude: 78.4632, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 182, name: 'Bin 3 - Quthbullapur Park (Residential)', latitude: 17.514999999999997, longitude: 78.4602, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null },
+      { id: 183, name: 'Bin 4 - Quthbullapur Colony (Residential)', latitude: 17.523999999999997, longitude: 78.4492, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null }
+    ],
+    activeRoute: null,
+    routeMetrics: null,
+    telemetry: null
+  },
+  'Uppal': {
+    center: { latitude: 17.3984, longitude: 78.5583 },
+    depot: { latitude: 17.3934, longitude: 78.55330000000001, name: 'Uppal Depot' },
+    bins: [
+      { id: 190, name: 'Bin 1 - Uppal Main (Main Road)', latitude: 17.4044, longitude: 78.56230000000001, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 191, name: 'Bin 2 - Uppal Market (Main Road)', latitude: 17.400399999999998, longitude: 78.5663, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 192, name: 'Bin 3 - Uppal Park (Residential)', latitude: 17.394399999999997, longitude: 78.5633, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null },
+      { id: 193, name: 'Bin 4 - Uppal Colony (Residential)', latitude: 17.403399999999998, longitude: 78.5523, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null }
+    ],
+    activeRoute: null,
+    routeMetrics: null,
+    telemetry: null
+  },
+  'Rajendranagar': {
+    center: { latitude: 17.319, longitude: 78.4039 },
+    depot: { latitude: 17.314, longitude: 78.3989, name: 'Rajendranagar Depot' },
+    bins: [
+      { id: 200, name: 'Bin 1 - Rajendranagar Main (Main Road)', latitude: 17.325, longitude: 78.4079, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 201, name: 'Bin 2 - Rajendranagar Market (Main Road)', latitude: 17.320999999999998, longitude: 78.41189999999999, zone_type: 'Main Road', status: 'Pending', time_window: '10:00 AM - 6:00 PM', collected_at: null, photo_url: null },
+      { id: 202, name: 'Bin 3 - Rajendranagar Park (Residential)', latitude: 17.314999999999998, longitude: 78.40889999999999, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null },
+      { id: 203, name: 'Bin 4 - Rajendranagar Colony (Residential)', latitude: 17.323999999999998, longitude: 78.39789999999999, zone_type: 'Residential', status: 'Pending', time_window: '6:00 AM - 10:00 AM', collected_at: null, photo_url: null }
+    ],
+    activeRoute: null,
+    routeMetrics: null,
+    telemetry: null
+  },
