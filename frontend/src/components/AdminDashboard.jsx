@@ -509,7 +509,7 @@ function AdminDashboard({ onNavigateHome, lang, onChangeLang, selectedRegion, on
           <b>${translations[lang].restriction}:</b> ${bin.time_window}<br/>
           ${bin.collected_at ? `<b>${translations[lang].collectedAt}:</b> ${new Date(bin.collected_at).toLocaleTimeString()}` : ''}
           <div style="margin-top: 8px;">
-            <button onclick="window.deleteBin(${bin.id})" style="background-color: #ea4335; color: white; border: none; padding: 4px 8px; border-radius: 4px; font-weight: bold; cursor: pointer; font-size:11px;">
+            <button onclick="window.deleteBin('${bin.id}')" style="background-color: #ea4335; color: white; border: none; padding: 4px 8px; border-radius: 4px; font-weight: bold; cursor: pointer; font-size:11px;">
               ${translations[lang].deleteBinBtn}
             </button>
           </div>

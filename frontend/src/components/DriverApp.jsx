@@ -49,7 +49,7 @@ function DriverApp({ onNavigateHome, lang, onChangeLang, selectedRegion, onChang
   // Compute activeRoute dynamically based on rawRouteSequence and selectedTruck
   const activeRoute = rawRouteSequence ? (
     typeof rawRouteSequence === 'object' && !Array.isArray(rawRouteSequence)
-      ? (rawRouteSequence[selectedTruck] || [])
+      ? (rawRouteSequence[selectedTruck.replace(' ', '_')] || [])
       : rawRouteSequence
   ) : [];
 
@@ -81,7 +81,7 @@ function DriverApp({ onNavigateHome, lang, onChangeLang, selectedRegion, onChang
         setRawRouteSequence(routeData.route_sequence);
         const seq = routeData.route_sequence;
         if (!Array.isArray(seq) && typeof seq === 'object') {
-          currentActiveRoute = seq[selectedTruck] || [];
+          currentActiveRoute = seq[selectedTruck.replace(' ', '_')] || [];
         } else {
           currentActiveRoute = seq || [];
         }
